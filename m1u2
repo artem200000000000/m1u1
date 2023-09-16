@@ -1,0 +1,11 @@
+import random
+
+pasvord = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+pasvord_dlina = int(input("длина пороля"))    
+passvord = ""
+
+for i in range (pasvord_dlina):
+    passvord += random.choice(pasvord10)
+
+print(passvord)
